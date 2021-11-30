@@ -1,0 +1,65 @@
+.game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("1781.jpg");
+    background-size: cover;
+    
+}
+
+.dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("pngegg.png");
+    background-size: cover;
+    /* animation: jump 1s infinite; */
+        
+}
+
+.rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("kivi.png");
+    background-size: cover;
+    animation: rock 1.33s infinite linear;
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: 0px;}
+}
+
+.animation {
+    animation: jump 1s;
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+    
+}
+
+.linkki {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.restart{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.info{
+    text-align: center;
+}
