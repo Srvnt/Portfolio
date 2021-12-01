@@ -1,2 +1,2 @@
 # ekat
-Simple portfolio-page with a few projects and detail about me
+Simple portfolio-page with a few projects and details about me
